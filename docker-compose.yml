@@ -1,0 +1,6 @@
+services:
+  Discord-Bot:
+    build: Discord-Bot
+    image: rust:latest
+    env_file: Discord-Bot/.env
+    container_name: PH-Discord-Bot
